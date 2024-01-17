@@ -1,4 +1,20 @@
 body {
-    margin: 0;
     text-align: center;
+    color: white;
+    outline-color: invert;
+    outline-width: thick;
+    background:
+        linear-gradient(#6a00fc, #ff0e93 50%),
+        linear-gradient(#ff0e93, #ffa10c 25%),
+        linear-gradient(#ffa10c, #ff4360 25%);
+    background-color: #ff0e93;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 5%;
+}
+
+.button {
+    color:white;
 }
